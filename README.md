@@ -1,24 +1,32 @@
-# README
+## Project Prerequisites
+- [Ruby 2.5.1](https://www.ruby-lang.org/en/downloads/)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Setup
 
-Things you may want to cover:
+1. Clone the repository
+```shell
+$ git clone git@github.com:akaruilabs-india/rails-auth-app.git myawesomeproject
+```
 
-* Ruby version
+2. Jump into your project
+```shell
+$ cd myawesomeproject
+```
 
-* System dependencies
+3. Install gems
+```shell
+$ bundle
+```
 
-* Configuration
+4. Create and migrate the database
+```shell
+$ rails db:create
+$ rails db:migrate
+```
 
-* Database creation
+5. Run it
+```shell
+$ rails s
+```
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+6. Explore it on http://localhost:3000
