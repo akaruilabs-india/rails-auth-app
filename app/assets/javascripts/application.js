@@ -17,4 +17,5 @@
 //= require popper
 //= require bootstrap
 //= require toastr
+//= require validate.min
 //= require_tree .
