@@ -1,6 +1,10 @@
 @import "bootstrap";
 @import "toastr";
 
+body {
+  background-color: #f8f9fa;
+}
+
 .form-control.error {
   border-color: #dc3545;
 }
